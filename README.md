@@ -13,18 +13,18 @@ A cada movimento do jogador, um novo bloco com o valor **2** ou **4** aparece em
 
 
 
-#### **Descrição do Projeto**
+#### Descrição do Projeto
 Você deve criar uma versão funcional do jogo **2048** utilizando a biblioteca **Pygame**. O jogo deve incluir:
 - Uma interface gráfica com a grade de 4x4. (Esta parte foi implementada como um presente para vocês <3)
 - Blocos que deslizam e se combinam com base nas entradas do jogador.
 - Um sistema que verifica condições de vitória ou derrota.
 
 
-### **Rubricas de Avaliação**
+### Rubricas de Avaliação
 
 A pontuação total será **10 pontos**, distribuída em diferentes níveis de desenvolvimento.
 
-#### Mecânica do Jogo (3 pontos)  
+#### Mecânica do Jogo (+3 pontos)  
 
 **Missões**:
 - Implementar o movimento dos blocos para **cima**, **baixo**, **esquerda** e **direita**.
@@ -37,7 +37,7 @@ A pontuação total será **10 pontos**, distribuída em diferentes níveis de d
 - Novos blocos aparecem após cada movimento.
 
 
-#### Interface Gráfica e Feedback Visual (2 pontos)
+#### Interface Gráfica e Feedback Visual (+2 pontos)
 
 **Missões**:
 
@@ -62,7 +62,7 @@ Sinta-se a vontade para usar outras cores se quiser, mas garanta que cada bloco 
 
 
 
-#### Condições de Jogo (2 pontos)
+#### Condições de Jogo (+2 pontos)
 
 **Missões**:
 - Tratar corretamente as condições de **fim de jogo**.
@@ -74,7 +74,7 @@ Sinta-se a vontade para usar outras cores se quiser, mas garanta que cada bloco 
 - Mensagens de vitória ou derrota aparecem adequadamente.
 
 
-#### Extras e Melhorias (3 ponto)**  
+#### Em busca da perfeição(+3 pontos)
 
 **Missões**:
 - Adicionar animações para os movimentos e combinações de blocos.
@@ -86,10 +86,30 @@ Sinta-se a vontade para usar outras cores se quiser, mas garanta que cada bloco 
 - Funcionalidades adicionais são implementadas corretamente.
 
 
+Resumindo...
+### Tabela de Missões
 
-### **Entrega**
+| **Seção**                  | **Missão**                                                                                                                   | **Descrição**                                                                                                                                           |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Mecânica do Jogo**       | Garantir que os blocos parem nas bordas ou ao encontrar outro bloco.                                                     | Movimentos devem respeitar os limites da grade e parar ao colidir com outro bloco.                                                                      |
+|                            |  Combinar blocos de mesmo valor ao colidirem.                                                                             | Combinações devem somar os valores corretamente.                                                                                                        |
+|                            | Garantir que novos blocos apareçam após cada movimento.                                                                  | Cada movimento deve gerar um novo bloco de valor 2 ou 4 em uma posição aleatória da grade.                                                              |
+| **Interface Gráfica**      | Implementar pontuação que aumenta a cada combinação correta.                                                             | A pontuação deve refletir o valor combinado dos blocos e ser exibida na interface.                                                                      |
+|                            |  Exibir a pontuação na interface do jogo.                                                                                  | A pontuação deve ser visível em tempo real durante o jogo.                                                                                              |
+|                            | Adicionar cores para blocos com valores diferentes: 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, e 2048.                     | Cores distintas devem representar diferentes valores de blocos, conforme sugerido na descrição do projeto.                                              |
+| **Condições de Jogo**      |  Detectar condições de fim de jogo (sem movimentos ou vitória ao alcançar 2048).                                           | O jogo deve terminar ao atingir 2048 ou ao esgotar os movimentos disponíveis.                                                                           |
+|                            | Exibir mensagens de vitória ou derrota adequadas.                                                                        | Mensagens claras devem indicar o estado final do jogo.                                                                                                  |
+|                            | Implementar a funcionalidade para reiniciar o jogo sem fechar o programa.                                                | Um botão ou comando deve permitir reiniciar o jogo.                                                                                                     |
+| **Extras e Melhorias**     | Adicionar animações para movimentos e combinações.                                                                       | Animações devem melhorar a experiência visual ao movimentar ou combinar blocos.                                                                         |
+|                            | Permitir continuar jogando após alcançar 2048.                                                                           | Após atingir 2048, o jogo deve oferecer a opção de continuar acumulando pontos.                                                                         |
+|                            | Adicionar sons, fontes diferenciadas ou design criativo.                                                                 | Sons ou outros elementos gráficos podem ser adicionados para personalizar a experiência do jogo.                                                       |
+
+
+
+
+### Entrega
 O projeto deve ser enviado via GitHub Classroom, com:
 
 1. O código-fonte completo comentado.
-2. Um arquivo `README.md` explicando como rodar o jogo e descrever brevemente as funcionalidades implementadas.
+2. Um arquivo `README.md` explicando brevemente as funcionalidades implementadas.
 3. Um vídeo curto mostrando o jogo em execução (pode ser um link do youtube).
