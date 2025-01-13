@@ -5,6 +5,10 @@
 
 A cada movimento do jogador, um novo bloco com o valor **2** ou **4** aparece em uma posição aleatória da grade. Os blocos se movem para a direção escolhida (cima, baixo, esquerda ou direita), combinando valores iguais. A pontuação aumenta a cada combinação de números iguais, gerando o seu múltiplo.
 
+💡 **Dica:**  Se quiser testar o jogo, com uma busca no Google você consegue achar vários sites que disponibilizam o jogo gratuitamente. [Um deles é esse aqui](https://2048game.com/pt/). 
+
+
+
 ![2048](img/image.png)
 
 
